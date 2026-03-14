@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaibhav Velumuri - Fullstack Developer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -34,12 +37,7 @@
                         <span>About</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a href="#services" class="nav-link">
-                        <i class="fas fa-cogs"></i>
-                        <span>Services</span>
-                    </a>
-                </li>
+
                 <li class="nav-item">
                     <a href="#skills" class="nav-link">
                         <i class="fas fa-code"></i>
@@ -50,6 +48,18 @@
                     <a href="#projects" class="nav-link">
                         <i class="fas fa-project-diagram"></i>
                         <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certificates</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#activities" class="nav-link">
+                        <i class="fas fa-trophy"></i>
+                        <span>Activities</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -69,19 +79,44 @@
 
     <!-- Home Section -->
     <section id="home" class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
         <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Vaibhav Velumuri</span> 👋</h1>
-                <h2 class="hero-subtitle">A passionate Fullstack Developer 🚀</h2>
-                <p class="hero-description">Skilled in C++, Java, HTML, CSS, JavaScript, and DSA. I love building interactive websites and solving real-world problems through code.</p>
+            <div class="hero-content fade-in-up">
+                <div class="badge">Welcome to my Portfolio</div>
+                <h1 class="hero-title">Hi, I'm <br><span class="highlight">Vaibhav Velumuri</span></h1>
+                <p class="hero-tagline">Aspiring Cloud & DevOps Engineer</p>
+                <p class="hero-description">CSE undergraduate at LPU. Specializing in building resilient systems and automated pipelines that power modern digital experiences.</p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Explore Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn btn-outline">About Me</a>
+                    <a href="https://drive.google.com/file/d/1TgUkIDrtoHsxORfwhX-YdEY9VXG4Yue1/view?usp=sharing" target="_blank" class="btn btn-glass">
+                        <i class="fas fa-eye"></i>
+                        <span>View CV</span>
+                    </a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="profile-placeholder">
-                    <i class="fas fa-user-circle"></i>
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">Cloud</span>
+                            <span class="stat-label">focused</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">DevOps</span>
+                            <span class="stat-label">passionate</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,22 +128,23 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Fullstack Developer & Tech Enthusiast</h3>
-                    <p>I am Vaibhav Velumuri, a passionate Fullstack Developer and tech enthusiast. Skilled in HTML, CSS, JavaScript, C++, Java, and DSA, I love building interactive projects and solving coding challenges.</p>
-                    <p>Currently, I am exploring Cloud Computing (AWS) and backend development to strengthen my skills. My goal is to contribute to impactful projects through internships and grow as a professional developer.</p>
-                    <p>With a strong foundation in both frontend and backend development, I enjoy working on projects that challenge me to learn and grow. I believe in writing clean, efficient code and creating user-friendly applications that make a difference.</p>
+                    <h3>Software Developer & Computer Science Student</h3>
+                    <p>I'm a B.Tech Computer Science & Engineering student at Lovely Professional University, passionate about building systems that scale and solve real-world problems.</p>
+                    <p>My approach is hands-on — I build projects to understand how real-world systems work, from frontend interfaces to the concepts behind cloud infrastructure.</p>
+                    <p>Currently, I'm focused on strengthening my foundations in cloud computing and DevOps, while actively working on projects that demonstrate clean architecture and scalable design.</p>
+                    <p>I believe in continuous learning and building incrementally — starting with solid fundamentals before moving to advanced implementations.</p>
                     <div class="about-highlights">
                         <div class="highlight-item">
-                            <i class="fas fa-rocket"></i>
-                            <span>Passionate about innovation</span>
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Web Development</span>
                         </div>
                         <div class="highlight-item">
-                            <i class="fas fa-code"></i>
-                            <span>Clean & efficient coding</span>
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Technologies</span>
                         </div>
                         <div class="highlight-item">
-                            <i class="fas fa-users"></i>
-                            <span>Team collaboration</span>
+                            <i class="fas fa-brain"></i>
+                            <span>Problem Solving & DSA</span>
                         </div>
                     </div>
                 </div>
@@ -121,136 +157,65 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2 class="section-title">My Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>Web Development 🌐</h3>
-                    <p>Designing and developing responsive websites using HTML, CSS, and JavaScript.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>Frontend Development 🎨</h3>
-                    <p>Creating clean, interactive, and user-friendly interfaces.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Problem Solving (DSA) 🧠</h3>
-                    <p>Solving complex problems efficiently using Data Structures and Algorithms.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Programming in C++ & Java 💻</h3>
-                    <p>Building logic-driven solutions and academic projects in C++ and Java.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h3>Cloud Computing (AWS, VirtualBox) ☁️</h3>
-                    <p>Exploring cloud technologies and virtualization for scalable solutions.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">My Skills</h2>
-            <div class="skills-content">
-                <div class="skills-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>HTML</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>CSS</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>JavaScript</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>C</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>C++</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Java</span>
-                                <span>75%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 75%"></div>
-                            </div>
-                        </div>
+            <div class="skills-wrapper">
+                <div class="skills-category-card">
+                    <div class="category-header">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-tag"><i class="fab fa-cuttlefish"></i> <span>C++</span></div>
+                        <div class="skill-tag"><i class="fab fa-java"></i> <span>Java</span></div>
+                        <div class="skill-tag"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                        <div class="skill-tag"><i class="fas fa-database"></i> <span>SQL</span></div>
                     </div>
                 </div>
-                <div class="skills-category">
-                    <h3>Tools & Technologies</h3>
-                    <div class="tools-grid">
-                        <div class="tool-item">
-                            <i class="fas fa-code"></i>
-                            <span>VS Code</span>
+
+                <div class="skills-category-card">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-tag"><i class="fab fa-aws"></i> <span>AWS (EC2, S3, IAM, RDS)</span></div>
+                        <div class="skill-tag"><i class="fab fa-docker"></i> <span>Docker</span></div>
+                        <div class="skill-tag"><i class="fas fa-dharmachakra"></i> <span>Kubernetes</span></div>
+                        <div class="skill-tag"><i class="fas fa-project-diagram"></i> <span>Terraform</span></div>
+                        <div class="skill-tag"><i class="fas fa-infinity"></i> <span>CI/CD Pipelines</span></div>
+                        <div class="skill-tag"><i class="fab fa-git-alt"></i> <span>Git & GitHub</span></div>
+                    </div>
+                </div>
+
+                <div class="skills-category-card">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-tag"><i class="fab fa-node-js"></i> <span>Node.js</span></div>
+                        <div class="skill-tag"><i class="fas fa-leaf"></i> <span>MongoDB</span></div>
+                    </div>
+                </div>
+
+                <div class="skills-category-card">
+                    <div class="category-header">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Core Computer Science</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-tag"><i class="fas fa-brain"></i> <span>Data Structures & Algorithms</span>
                         </div>
-                        <div class="tool-item">
-                            <i class="fas fa-git-alt"></i>
-                            <span>Git</span>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fab fa-github"></i>
-                            <span>GitHub</span>
-                        </div>
-                        <div class="tool-item">
-                            <i class="fas fa-brain"></i>
-                            <span>DSA</span>
-                        </div>
+                        <div class="skill-tag"><i class="fas fa-cubes"></i> <span>OOP</span></div>
+                        <div class="skill-tag"><i class="fas fa-database"></i> <span>DBMS</span></div>
+                        <div class="skill-tag"><i class="fas fa-desktop"></i> <span>Operating Systems</span></div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -260,37 +225,20 @@
             <h2 class="section-title">My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
+                    <div class="project-image project-image--photo">
+                        <img src="images/banking_project.png" alt="Banking Management System screenshot" class="project-photo">
                     </div>
                     <div class="project-content">
-                        <h3>Project 1</h3>
-                        <p>The Student Record System is a web-based project built with HTML, CSS, and JavaScript to manage student details efficiently.
-                        It offers features to add, update, search, and display records with a clean and interactive interface.</p>
+                        <h3>Banking Management System (C++ & Qt6)</h3>
+                        <p>A robust desktop application engineered using C++ and the Qt6 framework to streamline core
+                            banking operations. The system manages account lifecycle, secure financial transactions, and
+                            loan processing using strict Object-Oriented Programming (OOP) principles. It leverages
+                            advanced Data Structures for efficient record management and ensures data integrity through
+                            unique account ID validation and structured persistence logic.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://vaibhav04v-pixel.github.io/student_record_system/" class="project-link"><i class="fab fa-github"></i>live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Project 2</h3>
-                        <p>Description of your second project. Add details about technologies used and features implemented.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Java</span>
                             <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Qt6</span>
+                            <span class="tech-tag">OOP</span>
                             <span class="tech-tag">DSA</span>
                         </div>
                         <div class="project-links">
@@ -300,23 +248,148 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-project-diagram"></i>
-                        </div>
+                    <div class="project-image project-image--photo">
+                        <img src="images/log_monitoring_project.png" alt="Log Monitoring Alerting System screenshot" class="project-photo">
                     </div>
                     <div class="project-content">
-                        <h3>Project 3</h3>
-                        <p>Description of your third project. Add details about technologies used and features implemented.</p>
+                        <h3>Log Monitoring &amp; Alerting System</h3>
+                        <p class="project-date"><i class="fas fa-calendar-alt"></i> October 2025</p>
+                        <p>Built an AWS log monitoring system processing <strong>10k+ logs daily</strong>, reducing
+                            incident response time by <strong>40%</strong>. Configured CloudWatch metric filters and
+                            alarms to track 10+ critical error patterns with second-level alerting. Implemented AWS
+                            Lambda with SNS for real-time notifications at <strong>99% delivery reliability</strong>.
+                            Automated infrastructure via Terraform for reusable deployments and
+                            <strong>2× scalability</strong>.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Full Stack</span>
-                            <span class="tech-tag">Database</span>
-                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">AWS CloudWatch</span>
+                            <span class="tech-tag">Lambda</span>
+                            <span class="tech-tag">SNS</span>
+                            <span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Git</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/vaibhav04v-pixel/Log-monitoring-Alerting-System.git"
+                               target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
                         </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image--photo">
+                        <img src="images/careconnect_project.png" alt="CareConnect Hospital Portal screenshot" class="project-photo">
+                    </div>
+                    <div class="project-content">
+                        <h3>CareConnect – Hospital Portal</h3>
+                        <p class="project-date"><i class="fas fa-calendar-alt"></i> September 2025</p>
+                        <p>Designed and deployed cloud infrastructure on <strong>AWS EC2</strong> to support <strong>200+ concurrent users</strong> with high availability. Containerized the application using <strong>Docker</strong> for consistent performance across environments. Orchestrated the deployment with <strong>Kubernetes</strong> to enable horizontal scaling and achieve <strong>99.9% uptime</strong>. Reduced deployment time by <strong>60%</strong> through a Git-based automated CI/CD workflow.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS EC2</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certificates-grid">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/Screenshot 2026-03-14 172906.png" alt="AWS Cloud Architecting Badge" class="certificate-img">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Cloud Architecting–Training Badge</h3>
+                        <p class="issuer">AWS Academy</p>
+                        <p class="date">December 2025</p>
+                        <a href="https://drive.google.com/file/d/15fDsEzyNM-Bh1_ZMht-YaQcLpYQw7bVe/view?usp=sharing"
+                            target="_blank" class="btn-cert">View Certificate</a>
+                    </div>
+                </div>
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/Screenshot 2026-03-14 173817.png" alt="AWS Cloud Practitioner Essentials Badge" class="certificate-img">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>AWS Cloud Practitioner Essentials</h3>
+                        <p class="issuer">AWS Skill Builder</p>
+                        <p class="date">November 2025</p>
+                        <a href="https://drive.google.com/file/d/1hjUyiy30JBRQuGg25IZy0Rr6SbHWmBPz/view?usp=sharing"
+                            target="_blank" class="btn-cert">View Certificate</a>
+                    </div>
+                </div>
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/Screenshot 2026-03-14 174033.png" alt="DevOps Professional Certification Badge" class="certificate-img">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>DevOps Professional Certification</h3>
+                        <p class="issuer">Oracle</p>
+                        <p class="date">September 2025</p>
+                        <a href="https://drive.google.com/file/d/1raeyje0Q9b2_kN1cFzFiqCmDs5pIegz_/view?usp=sharing"
+                            target="_blank" class="btn-cert">View Certificate</a>
+                    </div>
+                </div>
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="images/Screenshot 2026-03-14 174429.png" alt="Responsive Web Design Certificate" class="certificate-img">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Responsive Web Design</h3>
+                        <p class="issuer">FreeCodeCamp</p>
+                        <p class="date">September 2023</p>
+                        <a href="https://drive.google.com/file/d/1eA9-HnUiuyCXFmH0DwoSzULbvnj39qYQ/view?usp=sharing"
+                            target="_blank" class="btn-cert">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra Curricular Activities Section -->
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 class="section-title">Extra Curricular Activities</h2>
+            <div class="activities-grid">
+                <!-- Activity 1 -->
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/adobe.png" alt="Adobe India Hackathon Certificate" class="activity-img">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Adobe India Hackathon – Round 1 Participant</h3>
+                        <p class="description">Participated in the online MCQ assessment and coding round of the Adobe India Hackathon organized on the Unstop platform.</p>
+                        <a href="https://drive.google.com/file/d/1A94aUR-zizwrNWg-lETNR2_sSHwoi-lu/view?usp=sharing" target="_blank" class="btn-cert">View Certificate</a>
+                    </div>
+                </div>
+                <!-- Activity 2 -->
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/code with duty.png" alt="Code Off Duty Hackathon Certificate" class="activity-img">
+                    </div>
+                    <div class="activity-info">
+                        <h3>Code Off Duty – Full Stack Web Hackathon</h3>
+                        <p class="description">Participated in a Full Stack Web Development Hackathon, collaborating with a team to develop innovative solutions and demonstrate problem-solving and teamwork skills.</p>
+                        <a href="https://drive.google.com/file/d/18ER803BXGo5RvYbNkX4rAkmT68OgXrRb/view?usp=sharing" target="_blank" class="btn-cert">View Certificate</a>
                     </div>
                 </div>
             </div>
@@ -354,9 +427,7 @@
                         <a href="https://github.com/vai830bhav" target="_blank" class="social-link">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://www.instagram.com/vaibhav_velumu_ri/" target="_blank" class="social-link">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+
                         <a href="https://wa.me/918309693848" target="_blank" class="social-link">
                             <i class="fab fa-whatsapp"></i>
                         </a>
@@ -374,7 +445,8 @@
                             <input type="text" id="subject" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
@@ -393,4 +465,4 @@
     <script src="script.js"></script>
 </body>
 
-</html> 
+</html>

@@ -65,7 +65,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for scroll animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animateElements = document.querySelectorAll('.service-card, .project-card, .skill-item, .tool-item, .stat');
+    const animateElements = document.querySelectorAll('.service-card, .project-card, .skill-item, .tool-item, .stat, .certificate-card, .activity-card');
     animateElements.forEach(el => {
         el.classList.add('scroll-animate');
         observer.observe(el);
@@ -196,24 +196,11 @@ function showNotification(message, type = 'info') {
 // Navbar background change on scroll
 window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
-    const isDarkMode = body.classList.contains('dark-mode');
     
     if (window.scrollY > 100) {
-        if (isDarkMode) {
-            navbar.style.background = 'rgba(26, 26, 26, 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.3)';
-        } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.15)';
-        }
+        navbar.classList.add('scrolled');
     } else {
-        if (isDarkMode) {
-            navbar.style.background = 'rgba(26, 26, 26, 0.95)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-        } else {
-            navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-        }
+        navbar.classList.remove('scrolled');
     }
 });
 

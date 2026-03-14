@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  app:
+    image: myprotfolio:latest
+    container_name: protfolio-web
+    ports:
+      - "80:80"
+    working_dir: /app
