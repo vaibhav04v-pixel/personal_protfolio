@@ -65,7 +65,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for scroll animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animateElements = document.querySelectorAll('.service-card, .project-card, .skill-item, .tool-item, .stat, .certificate-card, .activity-card');
+    const animateElements = document.querySelectorAll('.service-card, .project-card, .skill-item, .tool-item, .stat, .certificate-card, .activity-card, .education-card');
     animateElements.forEach(el => {
         el.classList.add('scroll-animate');
         observer.observe(el);
